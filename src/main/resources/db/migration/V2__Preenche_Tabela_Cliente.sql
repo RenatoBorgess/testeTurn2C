@@ -1,0 +1,22 @@
+INSERT INTO cliente (nome, email, cpf)
+VALUES
+  ('João da Silva', 'joao@example.com', '12345678901'),
+  ('Maria Oliveira', 'maria@example.com', '23456789012'),
+  ('Carlos Pereira', 'carlos@example.com', '34567890123'),
+  ('Ana Souza', 'ana@example.com', '45678901234'),
+  ('Pedro Santos', 'pedro@example.com', '56789012345'),
+  ('Sandra Lima', 'sandra@example.com', '67890123456'),
+  ('Ricardo Alves', 'ricardo@example.com', '78901234567'),
+  ('Fernanda Costa', 'fernanda@example.com', '89012345678'),
+  ('Lucas Rodrigues', 'lucas@example.com', '90123456789'),
+  ('Mariana Santos', 'mariana@example.com', '01234567890'),
+  ('Gustavo Pereira', 'gustavo@example.com', '12345678901'),
+  ('Carla Almeida', 'carla@example.com', '23456789012'),
+  ('Rafaela Oliveira', 'rafaela@example.com', '34567890123'),
+  ('André Silva', 'andre@example.com', '45678901234'),
+  ('Bianca Souza', 'bianca@example.com', '56789012345'),
+  ('Paulo Costa', 'paulo@example.com', '67890123456'),
+  ('Larissa Lima', 'larissa@example.com', '78901234567'),
+  ('Márcio Alves', 'marcio@example.com', '89012345678'),
+  ('Jéssica Rodrigues', 'jessica@example.com', '90123456789'),
+  ('Ronaldo Santos', 'ronaldo@example.com', '01234567890');
