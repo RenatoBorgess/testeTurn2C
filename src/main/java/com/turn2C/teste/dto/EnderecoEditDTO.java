@@ -1,7 +1,6 @@
 package com.turn2C.teste.dto;
 
 import com.turn2C.teste.domain.Cliente;
-import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,9 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class EnderecoDTO {
+public class EnderecoEditDTO {
 
-    private Cliente cliente;
     private String bairro;
     private String logradouro;
     private Long cep;
