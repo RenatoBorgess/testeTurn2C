@@ -31,7 +31,7 @@ public class Endereco {
     @Column(nullable = false)
     private String uf;
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.EAGER)
     @MapsId
     @JoinColumn(name = "cliente_id")
     private Cliente cliente;

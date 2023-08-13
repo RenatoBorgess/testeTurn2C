@@ -66,23 +66,6 @@ Para acessar o console do H2, siga as instruções abaixo:
 
 Isso abrirá o console de administração do H2, onde você pode interagir com o banco de dados em memória. Lembre-se de que o URL JDBC e outras configurações podem variar com base nas configurações do seu projeto.
 
-## Acessando a Coleção de Requests no Postman
-
-Para acessar a coleção de requests no Postman, siga as instruções abaixo:
-
-1. Abra o seu navegador web.
-
-2. Acesse o seguinte link:
-   https://www.postman.com/science-geoscientist-70624180/workspace/teste-turn2c/collection/25935851-c8d39519-cc73-43c8-9abf-e4e211aefc69?action=share&creator=25935851
-
-3. Isso levará você para a página de compartilhamento da coleção no Postman.
-
-4. Se você já estiver logado no Postman, será redirecionado automaticamente para a coleção no aplicativo Postman. Caso contrário, siga as instruções para fazer login ou criar uma conta.
-
-5. Uma vez logado, você será levado para a coleção de requests "teste-turn2c". Nesta coleção, você encontrará uma lista de endpoints pré-configurados que podem ser usados para testar a API.
-
-Lembre-se de que esta coleção de requests é específica para o projeto "teste-turn2c" e pode conter requests de teste e interações para os endpoints da API.
-
 
 ### Tecnologias Utilizadas
 1. Spring Boot (3.1.2)
