@@ -15,13 +15,15 @@ public class Endereco {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "endereco_id", referencedColumnName = "id")
-    private Cliente cliente;
     private String bairro;
     private String logradouro;
     private Long cep;
     private Long numero;
     private String cidade;
     private String uf;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @MapsId
+    @JoinColumn(name = "cliente_id")
+    private Cliente cliente;
 }
