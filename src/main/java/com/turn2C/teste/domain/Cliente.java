@@ -20,6 +20,5 @@ public class Cliente {
     @Column(unique = true)
     private String email;
     private String cpf;
-    @OneToOne(mappedBy = "cliente")
-    private Endereco endereco;
-}
+
+    }
